@@ -21,11 +21,21 @@ export default function App() {
           <a href="">C</a> | <a href="">F</a>
         </div>
         <ul>
-          <li>Humidity: 20 %</li>
+          <li>Humidity: 80%</li>
           <li>Wind: 5 km/h</li>
         </ul>
       </div>
       <WeatherForecast />
+      <footer>
+        This project was coded by Cheavon Pottinger and is{" "}
+        <a
+          href="https://github.com/Trinity737/Prompt-Weather"
+          target="_blank"
+          alt="noreferrer"
+        >
+          open-sourced on Github
+        </a>
+      </footer>
     </div>
   );
 }
