@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
+    <div className="container">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Prompt Weather</h1>
+        <ul>
+          <li className="date">Wednesday 12:00pm</li>
+          <li className="description">Partly Cloudy</li>
+        </ul>
       </header>
+      <img
+        src="https://ssl.gstatic.com/onebox/weather/64/rain.png"
+        alt="rain"
+      />
     </div>
   );
 }
-
-export default App;
