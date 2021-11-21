@@ -13,7 +13,19 @@ export default function App() {
       <img
         src="https://ssl.gstatic.com/onebox/weather/64/rain.png"
         alt="rain"
+        className="float-left"
       />
+      <div className="float-left">
+        <div className="row">
+          <div className="col-6">24°</div>
+          <a href="">C</a> | <a href="">F</a>
+        </div>
+        <ul>
+          <li>Humidity: 20 %</li>
+          <li>Wind: 5 km/h</li>
+        </ul>
+      </div>
+      <WeatherForecast />
     </div>
   );
 }
