@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Weather.css";
+
 export default function Weather() {
   return (
     <div className="Weather">
@@ -20,12 +22,12 @@ export default function Weather() {
             <a href="">C</a> | <a href="">F</a>
           </div>
         </div>
-      </div>
-      <div className="col-6">
-        <ul>
-          <li>Humidity: 80%</li>
-          <li>Wind: 5 km/h</li>
-        </ul>
+        <div className="col-6">
+          <ul>
+            <li>Humidity: 80%</li>
+            <li>Wind: 5 km/h</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
