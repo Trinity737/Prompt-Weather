@@ -6,7 +6,9 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather />
-        <footer>
+      </div>
+      <footer>
+        <small>
           This project was coded by Cheavon Pottinger and is{" "}
           <a
             href="https://github.com/Trinity737/Prompt-Weather"
@@ -15,8 +17,8 @@ export default function App() {
           >
             open-sourced on Github
           </a>
-        </footer>
-      </div>
+        </small>
+      </footer>
     </div>
   );
 }
