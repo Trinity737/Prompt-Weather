@@ -4,14 +4,16 @@ import "./WeatherFoecast.css";
 
 export default function WeatherForecast() {
   return (
-    <div className="WeatherForecast-day">
+    <div className="WeatherForecast">
       <div className="row">
         <div className="col">
-          Thu
-          <WeatherIcon code="01d" size={36} />
-          <div className="WeatherForecast-temperature">
-            <span className="WeatherForecast-temperature-max">19°</span>
-            <span className="WeatherForecast-temperature-min">10°</span>
+          <div className="WeatherForecast-day">
+            Thu
+            <WeatherIcon code="01d" size={36} />
+            <div className="WeatherForecast-temperatures">
+              <span className="WeatherForecast-temperature-max">19°</span>
+              <span className="WeatherForecast-temperature-min">10°</span>
+            </div>
           </div>
         </div>
       </div>
