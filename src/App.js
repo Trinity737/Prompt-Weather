@@ -13,7 +13,7 @@ export default function App() {
           <a
             href="https://github.com/Trinity737/Prompt-Weather"
             target="_blank"
-            alt="noreferrer"
+            rel="noreferrer"
           >
             open-sourced on Github
           </a>
